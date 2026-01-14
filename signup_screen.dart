@@ -15,7 +15,7 @@ class _SignupScreenState extends State<SignupScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return customScaffold(
+    return customScaffold( 
       child: Column(
         children: [
           const Expanded(flex: 1, child: SizedBox(height: 10)),
@@ -173,3 +173,4 @@ class _SignupScreenState extends State<SignupScreen> {
     );
   }
 }
+
