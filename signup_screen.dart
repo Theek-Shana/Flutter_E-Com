@@ -11,7 +11,7 @@ class SignupScreen extends StatefulWidget {
 
 class _SignupScreenState extends State<SignupScreen> {
   final _signupKey = GlobalKey<FormState>();
-  bool agreeToTerms = false;
+  bool agreeToTerms = false; 
 
   @override
   Widget build(BuildContext context) {
@@ -173,4 +173,5 @@ class _SignupScreenState extends State<SignupScreen> {
     );
   }
 }
+
 
