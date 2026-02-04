@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_login/widgets/custom_scaffold.dart';
 import 'package:flutter_login/theme/theme.dart';
 
+class SignupScreen extends StatefulWidget {
+  const SignupScreen({super.key});
+
+  @override
+  State<SignupScreen> createState() => _SignupScreenState();
+}
 
 class _SignupScreenState extends State<SignupScreen> {
   final _signupKey = GlobalKey<FormState>();
@@ -167,6 +173,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
   }
 }
+
 
 
 
